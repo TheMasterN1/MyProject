@@ -1,0 +1,71 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover, contain;
+  background-repeat: no-repeat;
+}
+
+main > div{
+  color: white;
+  margin-top: 20px;
+}
+
+body > div{
+  width: 60%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin: auto;
+  padding: 3%;
+}
+
+h1{
+  color: lime;
+  font-family: "Arial";
+  font-weight: normal;
+}
+
+header, nav{
+  text-align: center;
+}
+
+nav{
+  background-color: lime;
+  padding: 10px 0px 10px;
+}
+
+.owner{
+  font-size: 20px;
+  font: bold;
+}
+
+p{
+  margin: 5px;
+}
+
+p:nth-child(3)::before{
+  content: "\21A6";
+}
+
+p:nth-child(3)::after{
+  content: "\AStato carica:";
+  white-space: pre;
+}
+
+.orange{
+  padding-left: 30%;
+  background-color: orange;
+}
+
+.red{
+  padding-left: 10%;
+  background-color: rgb(255,0,0);
+}
+
+.green{
+  padding-left: 70%;
+  background-color: rgb(0,255,0);
+}
+
+.green, .red, .orange{
+  border-radius: 3px;
+  font-size: 20px;
+}
